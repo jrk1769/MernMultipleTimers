@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.addBtn {
+  color: white;
+  margin-left: 1%;
+  font-size: 30px;
+  background-color: black;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.addBtn:hover {
+  cursor: pointer;
+}
+.addBtn p {
+  color: white;
+  margin: -3px 0 0;
+}
+
+.watchContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
